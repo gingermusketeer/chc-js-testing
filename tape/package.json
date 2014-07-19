@@ -1,0 +1,16 @@
+{
+  "name": "tape-demo",
+  "version": "0.0.0",
+  "description": "Tape based testing demo",
+  "scripts": {
+    "test": "node spec/test.js",
+    "start": "beefy spec/test.js"
+  },
+  "author": "Max Brosnahan",
+  "license": "ISC",
+  "dependencies": {
+    "beefy": "^2.0.3",
+    "browserify": "^4.2.1",
+    "tape": "^2.13.3"
+  }
+}
